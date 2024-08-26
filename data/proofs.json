@@ -1,0 +1,45 @@
+{
+  "religions": {
+    "5454": {
+      "texts": {
+        "5454": {
+          "5454": {
+            "proofs": []
+          }
+        }
+      }
+    },
+    "hindu": {
+      "texts": {
+        "veda": {
+          "gita": {
+            "proofs": []
+          }
+        },
+        "gita": {
+          ".": {
+            "proofs": []
+          }
+        }
+      }
+    },
+    "kkj": {
+      "texts": {
+        "kjkjk": {
+          "kjkj": {
+            "proofs": []
+          }
+        }
+      }
+    },
+    "kjkj": {
+      "texts": {
+        "kjkj": {
+          "kjk": {
+            "proofs": []
+          }
+        }
+      }
+    }
+  }
+}

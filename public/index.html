@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proofs Search System</title>
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search proofs, tags, content...">
+    </div>
+    
+    <div class="content-wrapper">
+        <aside class="filter-sidebar">
+            <h3>Filter by</h3>
+            <div class="filter-group">
+                <h4>Religion</h4>
+                <input type="checkbox" id="hinduism" name="religion" value="hindu">
+                <label for="hinduism">Hinduism</label><br>
+                <input type="checkbox" id="christianity" name="religion" value="christianity">
+                <label for="christianity">Christianity</label><br>
+                <input type="checkbox" id="islam" name="religion" value="islam">
+                <label for="islam">Islam</label>
+            </div>
+
+            <div class="filter-group">
+                <h4>Textbook</h4>
+                <input type="checkbox" id="veda" name="textbook" value="veda">
+                <label for="veda">Veda</label><br>
+                <input type="checkbox" id="bible" name="textbook" value="bible">
+                <label for="bible">Bible</label><br>
+                <input type="checkbox" id="quran" name="textbook" value="quran">
+                <label for="quran">Quran</label>
+            </div>
+
+            <div class="filter-group">
+                <h4>Tags</h4>
+                <input type="checkbox" id="creation" name="tag" value="creation">
+                <label for="creation">Creation</label><br>
+                <input type="checkbox" id="faith" name="tag" value="faith">
+                <label for="faith">Faith</label><br>
+                <input type="checkbox" id="karma" name="tag" value="karma">
+                <label for="karma">Karma</label>
+            </div>
+        </aside>
+
+        <section class="results-container" id="results-container">
+            <!-- Search results will be dynamically added here -->
+        </section>
+    </div>
+
+    <script src="js/user.js"></script>
+</body>
+</html>

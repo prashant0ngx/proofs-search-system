@@ -1,0 +1,31 @@
+/* Add this to your existing styles.css */
+
+.search-container {
+    margin: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.filter-sidebar {
+    width: 20%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.results-container {
+    width: 80%;
+    padding: 20px;
+}
+
+.proof-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.proof-item img {
+    max-width: 100%;
+    height: auto;
+}

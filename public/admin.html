@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Proofs Search System</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Admin Panel</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <div>
+                <label for="religion">Religion:</label>
+                <input type="text" id="religion" name="religion" required>
+            </div>
+            <div>
+                <label for="textbook">Textbook:</label>
+                <input type="text" id="textbook" name="textbook" required>
+            </div>
+            <div>
+                <label for="chapter">Chapter:</label>
+                <input type="text" id="chapter" name="chapter" required>
+            </div>
+            <div>
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" required></textarea>
+            </div>
+            <div>
+                <label for="tags">Tags (comma separated):</label>
+                <input type="text" id="tags" name="tags">
+            </div>
+            <div>
+                <label for="reference">Reference URL:</label>
+                <input type="text" id="reference" name="reference">
+            </div>
+            <div>
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+            </div>
+            <button type="submit">Upload Proof</button>
+        </form>
+        <div id="message"></div>
+        
+        <!-- Display table of added proofs -->
+        <h2>Added Proofs</h2>
+        <table id="proofs-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Religion</th>
+                    <th>Textbook</th>
+                    <th>Chapter</th>
+                    <th>Content</th>
+                    <th>Photo</th>
+                    <th>Reference</th>
+                    <th>Tags</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Proofs will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="js/admin.js"></script>
+</body>
+</html>
